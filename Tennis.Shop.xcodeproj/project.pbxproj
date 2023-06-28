@@ -12,6 +12,7 @@
 		5254BE492A1EC92F00740973 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5254BE482A1EC92F00740973 /* ProductCard.swift */; };
 		5254BE4C2A1ECFAC00740973 /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5254BE4B2A1ECFAC00740973 /* CartButton.swift */; };
 		5254BE4E2A1ED10900740973 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5254BE4D2A1ED10900740973 /* Cart.swift */; };
+		527009E62A4CDBAE004199E8 /* PayemntButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527009E52A4CDBAE004199E8 /* PayemntButton.swift */; };
 		5274B2ED2A1D06D500FEE871 /* Tennis_ShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5274B2EC2A1D06D500FEE871 /* Tennis_ShopApp.swift */; };
 		5274B2EF2A1D06D500FEE871 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5274B2EE2A1D06D500FEE871 /* ContentView.swift */; };
 		5274B2F12A1D06D600FEE871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5274B2F02A1D06D600FEE871 /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 		5254BE482A1EC92F00740973 /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
 		5254BE4B2A1ECFAC00740973 /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
 		5254BE4D2A1ED10900740973 /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		527009E52A4CDBAE004199E8 /* PayemntButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayemntButton.swift; sourceTree = "<group>"; };
 		5274B2E92A1D06D500FEE871 /* Tennis.Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tennis.Shop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5274B2EC2A1D06D500FEE871 /* Tennis_ShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tennis_ShopApp.swift; sourceTree = "<group>"; };
 		5274B2EE2A1D06D500FEE871 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,6 +52,7 @@
 				5254BE482A1EC92F00740973 /* ProductCard.swift */,
 				5254BE4B2A1ECFAC00740973 /* CartButton.swift */,
 				522D7D482A1FF194003991BC /* ProductRow.swift */,
+				527009E52A4CDBAE004199E8 /* PayemntButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -66,6 +69,7 @@
 		5274B2E02A1D06D500FEE871 = {
 			isa = PBXGroup;
 			children = (
+				5274B2EC2A1D06D500FEE871 /* Tennis_ShopApp.swift */,
 				5274B2EB2A1D06D500FEE871 /* Tennis.Shop */,
 				5274B2EA2A1D06D500FEE871 /* Products */,
 			);
@@ -85,7 +89,6 @@
 				5254BE4A2A1ECD6600740973 /* Views */,
 				5254BE472A1EC90B00740973 /* Components */,
 				5274B2FA2A1D070B00FEE871 /* Models */,
-				5274B2EC2A1D06D500FEE871 /* Tennis_ShopApp.swift */,
 				5274B2F02A1D06D600FEE871 /* Assets.xcassets */,
 				5274B2F22A1D06D600FEE871 /* Preview Content */,
 				522D7D462A1FC57A003991BC /* CartManager.swift */,
@@ -180,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5274B2EF2A1D06D500FEE871 /* ContentView.swift in Sources */,
+				527009E62A4CDBAE004199E8 /* PayemntButton.swift in Sources */,
 				5254BE4E2A1ED10900740973 /* Cart.swift in Sources */,
 				522D7D472A1FC57A003991BC /* CartManager.swift in Sources */,
 				5274B2ED2A1D06D500FEE871 /* Tennis_ShopApp.swift in Sources */,
