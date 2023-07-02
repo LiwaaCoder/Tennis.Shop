@@ -14,7 +14,7 @@ struct ProductRow: View {
         
         HStack(spacing:20)
         {
-            Image(product.image)
+            Image(product.imageURL)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 80)
