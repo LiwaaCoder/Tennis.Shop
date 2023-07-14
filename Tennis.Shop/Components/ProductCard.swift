@@ -15,20 +15,21 @@ struct ProductCard: View {
                     }
                     .indicator(.activity)
                     .transition(.fade(duration: 0.5))
-                    .aspectRatio(contentMode: .fit)
+                    .aspectRatio(4/5, contentMode: .fit)
                     .cornerRadius(20)
                     .frame(width: 180)
-
                 
-                VStack(alignment: .leading) {
+                VStack(alignment: .center) {
                     Text(product.name)
                         .bold()
+                        .foregroundColor(.black)
                     
                     Text("$\(product.price)")
                         .font(.caption)
+                        .foregroundColor(.gray)
                 }
                 .padding()
-                .frame(width: 180, height: 50)
+                .frame(width: 180)
                 .background(Color.white.opacity(0.8))
                 .cornerRadius(20)
             }
