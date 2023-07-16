@@ -23,12 +23,14 @@ TennisShop is a SwiftUI-based mobile application that allows users to browse and
 - Apple Pay: A payment method that enables users to make secure purchases using their Apple devices.
 
 ## Screenshots
+![Simulator Screenshot - iPhone 14 Pro - 2023-07-15 at 00 11 14](https://github.com/LiwaaCoder/Tennis.Shop/assets/66652532/234549af-4e24-4412-8da4-3c1f48cdb62c)
 
-Include screenshots or GIFs showcasing the main features and user interface of your app.
+![Simulator Screenshot - iPhone 14 Pro - 2023-07-15 at 00 11 04](https://github.com/LiwaaCoder/Tennis.Shop/assets/66652532/c5d8d85b-1fd5-4f4b-9f4b-39cc08f83a5c)
+
+![Simulator Screenshot - iPhone 14 Pro - 2023-07-14 at 23 27 26](https://github.com/LiwaaCoder/Tennis.Shop/assets/66652532/e49819b1-ce48-4cfe-8582-d0190520bc24)
+
 
 ## Installation
-
-1. Clone the repository: `git clone https://github.com/your-username/tennis-shop.git`
 2. Install Cocoapods dependencies: `pod install`
 3. Set up Firebase project:
    - Create a new Firebase project at [Firebase Console](https://console.firebase.google.com/).
@@ -63,14 +65,6 @@ To configure the Firebase services and Apple Pay functionality, follow these ste
 
 - The TennisShop app currently focuses on displaying and purchasing tennis rackets only. Additional features like user profiles, order history, and reviews could be implemented in future updates.
 
-## Contributing
-
-Contributions are welcome! If you encounter any issues or have suggestions for improvement, please open an issue or submit a pull request. Make sure to follow the project's code style and guidelines.
-## Acknowledgments
-
-- The SwiftUI community for their valuable resources and inspiration.
-- Firebase for providing a robust backend solution for data storage and authentication.
-- Apple for developing Apple Pay and making secure payments accessible to users.
 
 
 Enjoy shopping with TennisShop!
